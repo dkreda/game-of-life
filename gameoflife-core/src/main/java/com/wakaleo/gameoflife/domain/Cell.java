@@ -2,7 +2,8 @@ package com.wakaleo.gameoflife.domain;
 
 public enum Cell {
     LIVE_CELL("*"), DEAD_CELL(".");
-
+    /* above is the place were we should change the diplay of 
+	   live  / dead cell */
     private String symbol;
 
     private Cell(final String initialSymbol) {
